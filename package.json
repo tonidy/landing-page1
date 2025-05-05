@@ -1,0 +1,25 @@
+{
+  "name": "astro-landing-page",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^4.0.0",
+    "@astrojs/react": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "aos": "^3.0.0-beta.6",
+    "gsap": "^3.12.5",
+    "framer-motion": "^10.16.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.32"
+  }
+}

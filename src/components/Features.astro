@@ -1,0 +1,13 @@
+---
+import FeatureCard from './react/FeatureCard.jsx';
+---
+<section id="features" class="py-24 bg-white dark:bg-zinc-900" data-aos="fade-up">
+  <div class="container mx-auto px-4 max-w-5xl">
+    <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center font-display">Features</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <FeatureCard client:only="react" title="Modern Design" description="Minimalist, bold, and visually stunning layouts that engage visitors." />
+      <FeatureCard client:only="react" title="Smooth Animations" description="Scroll-triggered effects, fade-ins, and parallax for immersive UX." />
+      <FeatureCard client:only="react" title="SEO & Performance" description="Fast, accessible, and SEO-friendly structure for better results." />
+    </div>
+  </div>
+</section>

@@ -1,0 +1,38 @@
+---
+import '../styles/global.css';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Features from '../components/Features.astro';
+import Testimonials from '../components/Testimonials.astro';
+import CTA from '../components/CTA.astro';
+import Footer from '../components/Footer.astro';
+import Navbar from '../components/Navbar.astro';
+import DarkModeToggle from '../components/DarkModeToggle.astro';
+---
+
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A modern, visually stunning landing page built with Astro, React, and Tailwind CSS." />
+    <meta property="og:title" content="Astro Landing Page" />
+    <meta property="og:description" content="A modern, visually stunning landing page built with Astro, React, and Tailwind CSS." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:image" content="/assets/og-image.jpg" />
+    <title>Astro Landing Page</title>
+    <link rel="icon" href="/assets/favicon.ico" />
+  </head>
+  <body class="bg-bg dark:bg-darkbg text-primary dark:text-white font-body">
+    <Navbar />
+    <DarkModeToggle />
+    <main>
+      <Hero />
+      <About />
+      <Features />
+      <Testimonials />
+      <CTA />
+    </main>
+    <Footer />
+  </body>
+</html>
